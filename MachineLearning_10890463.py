@@ -78,7 +78,6 @@ volatile_acidity = st.number_input(
 citric_Acid = st.number_input(
     "Citric acidity",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=3)
@@ -86,7 +85,6 @@ citric_Acid = st.number_input(
 residual_sugar = st.number_input(
     "Residual Sugar",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=4)
@@ -94,7 +92,6 @@ residual_sugar = st.number_input(
 chlorides = st.number_input(
     "Chlorides",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=5)
@@ -102,7 +99,6 @@ chlorides = st.number_input(
 totalsulfurdioxide = st.number_input(
     "Total Sulfur Dioxide",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=6)
@@ -110,7 +106,6 @@ totalsulfurdioxide = st.number_input(
 freesulfurdioxide = st.number_input(
     "Free Sulfur Dioxide",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=7)
@@ -118,7 +113,6 @@ freesulfurdioxide = st.number_input(
 density = st.number_input(
     "Density",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=8)
@@ -126,7 +120,6 @@ density = st.number_input(
 pH = st.number_input(
     "pH",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=9)
@@ -135,7 +128,6 @@ pH = st.number_input(
 sulphates = st.number_input(
     "Sulphates",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=10)
@@ -143,7 +135,6 @@ sulphates = st.number_input(
 alcohol = st.number_input(
     "Alcohol",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=11)
