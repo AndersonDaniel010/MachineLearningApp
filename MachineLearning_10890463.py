@@ -70,7 +70,6 @@ fixed_acidity = st.number_input(
 volatile_acidity = st.number_input(
     "Volatile acidity",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=2) 
