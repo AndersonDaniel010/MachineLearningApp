@@ -92,3 +92,4 @@ wcwidth==0.2.5
 websockets==10.3
 yt-dlp==2022.5.18
 zipp==3.9.0
+scikit-learn
