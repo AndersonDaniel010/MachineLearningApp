@@ -149,13 +149,13 @@ def predict():
     prediction = model2.predict(X)[0]
 
     if prediction == 1:
-        st.success(''Good Quality Wine'')
-        st.markdown('''Hi''')
+        st.success('Good Quality Wine')
+        st.markdown('Hi')
         st.ballons()
         
     else:
-        st.error(''Not good quality Wine'')
-        st.markdown('''Hi''')
+        st.error('Not good quality Wine')
+        st.markdown('Hi')
         
 st.button('Make Prediction', on_click=predict)
 
