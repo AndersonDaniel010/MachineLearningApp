@@ -151,7 +151,7 @@ def predict():
     if prediction == 1:
         st.success('Good Quality Wine')
         st.markdown('Hi')
-        st.ballons()
+        st.balloons()
         
     else:
         st.error('Not good quality Wine')
