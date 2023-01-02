@@ -54,13 +54,11 @@ scikit-learn==1.2.0
 scipy==1.9.3
 semver==2.13.0
 six==1.16.0
-sklearn==0.0.post1
 smmap==5.0.0
 streamlit==1.16.0
 tensorboard==2.11.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.11.0
 tensorflow-estimator==2.11.0
 tensorflow-intel==2.11.0
 tensorflow-io-gcs-filesystem==0.29.0
