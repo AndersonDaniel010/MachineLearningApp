@@ -63,7 +63,6 @@ st.title('My Machine Learning App using streamlit')
 fixed_acidity = st.number_input(
     "Fixed acidity",
     min_value=0.0,
-    max_value=10.0,
     step=1e-6,
     format="%.5f",
     key=1)
