@@ -1,6 +1,7 @@
 # 10890463
 # Anderson Daniel Torres Bernardo
 
+import sklearn
 import streamlit as st
 import pandas as pd
 import numpy as np
